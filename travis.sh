@@ -30,5 +30,5 @@ fi
 
 if [ "$1" = "script" ]
 then
-  bundle exec rake test
+  bundle exec rake test --trace
 fi
